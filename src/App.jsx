@@ -81,6 +81,7 @@ export default class App extends Component {
             {this.state.data.map(({ id, name, status }) => {
               return (
                 <tr key={id}>
+                  
                   <td>{id}</td>
                   <td>
                     {this.state.selected === id ? (
